@@ -27,9 +27,28 @@
         <div id="sonuc1"></div>
     </form>
     <table border="1" width="40%">
-
-        
     </div>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+    const calculator = document.getElementById('calculator');
+
+    loginForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const eposta = document.getElementById('eposta').value;
+        const sifre = document.getElementById('sifre').value;
+
+        // Kullanıcı doğrulama, 
+        if (eposta === 'kullanici@ornek.com' && sifre === 'sifre') {
+            calculator.classList.remove('hidden');
+            loginPage.classList.add('hidden');
+        } else {
+            alert('Kullanıcı adı veya şifre hatalı.');
+        }
+    });
+    </script>
+
     <script>
         function hesapla(){
             // var val1 = Number(document.getElementById("val1").value)
@@ -110,6 +129,6 @@ document.querySelector('tbody > tr:nth-child(' + (sayi2 + 1) + ') > td:nth-child
                 document.write("</tr>");
             }
         </script>
-        </table>
+    </table>
 </body>
 </html>

@@ -7,7 +7,7 @@
 
 body
 {
-    background: #262626 url(https://i.pinimg.com/originals/6c/8b/e4/6c8be4dd2187814342020e0153b1f6c5.jpg);
+    background: #262626 url(https://cutewallpaper.org/28/cute-ipad-desktop-wallpaper/3275817453.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -22,13 +22,13 @@ form{
     flex-direction: column;
     align-items: center;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .8);
-    width: 300px;
-    height: 400px;
+    box-shadow: 0 0 10px rgba(99, 63, 63, 0.8);
+    width: 200px;
+    height: 350px;
 }
 
 form h2{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 55px;
     color: rgb(255, 255, 255);
     margin-bottom: 30px;
@@ -36,12 +36,12 @@ form h2{
 
 form input{
     border: none;
-    background: rgb(4, 49, 39);
+    background: rgb(117, 16, 75);
     text-align: center;
     outline: none;
     padding: 10px;
     margin: 20px;
-    color: rgb(157, 206, 168);
+    color: rgb(213, 15, 248);
     height: 30px;
     width: 70%;
     border-radius: 40px;
@@ -66,6 +66,6 @@ form input[type="text"]:focus, form input[type="password"]:focus{
 }
 
 form input[type="submit"]:hover{
-    background-color: #104c40;
+    background-color: #6e1f67;
     color: rgb(255, 255, 255);
 }
